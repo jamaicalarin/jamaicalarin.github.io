@@ -15,7 +15,8 @@ body {
   font-family: "Raleway", Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
-  background: #121212;
+  /*background: #121212;*/
+  background: #333;
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
@@ -109,7 +110,8 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.4);
+  /*background: rgba(0, 0, 0, 0.4);*/
+  background: rgba(14, 72, 243, 0.4)
 }
 
 .fh5co-cover {
@@ -150,10 +152,10 @@ figure {
     padding-right: 15px;
   }
 }
-.fh5co-cover .desc h2 {
+.fh5co-cover .desc h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 25px;
   margin-bottom: 30px;
   font-weight: 300 !important;
 }
